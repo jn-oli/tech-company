@@ -1,0 +1,178 @@
+.back{
+  background-color: black;
+  box-shadow: 0px 10px 15px 11px rgb(202, 202, 202);
+ }
+ 
+ .navbar{
+   display: flex;
+   align-items: center;
+   padding: 20px;
+ }
+ 
+ .navbar img{
+   width: 80px;
+   margin-left: 40px;
+ }
+ 
+ nav{
+   flex: 1;
+   text-align: right;
+   margin-right: 90px;
+ }
+ 
+ nav ul{
+   display: inline-block;
+   list-style-type: none;
+ }
+ 
+ nav ul li{
+   display: inline-block;
+   text-transform: uppercase;
+   margin-right: 120px;
+   font-family: monospace;
+   font-size: larger;
+   font-weight: 100;
+ }
+ 
+ #searchbar{
+   background-color: rgb(138, 138, 138);
+   border-radius:20px;
+   width: 100px;
+ }
+ 
+ 
+ a{
+   text-decoration: none;
+   color: rgb(145, 145, 145);
+   text-transform: uppercase;
+   
+ }
+ 
+ nav ul li a:hover{
+   color: white;
+   box-shadow: 0px 6px 0px -5px white;
+ }
+ 
+ button{
+   background-color: rgb(95, 95, 95);
+   color: rgb(8, 8, 8);
+   border-radius: 10px;
+ }
+ 
+ button:hover{
+   background-color: rgb(8, 8, 8);
+   color:  rgb(134, 132, 132)  ;
+   transition: 1ms;
+   border-radius: 10px;
+   cursor:pointer;
+   
+ }
+ 
+
+ .division{
+  margin: 0 12% 3% 12%;
+
+}
+
+
+.data h1{
+  text-align: center;
+  font-size: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  
+}
+
+.data h2{
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.data p{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 50px;
+  margin-bottom:  40px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+
+.picture1{
+  width: 600px;
+}
+
+
+
+.align{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.container{
+ margin-left: 40px;
+
+
+}
+
+.container figcaption{
+  text-align: center;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container img{
+  width: 100%;
+
+}
+
+#form{
+  width: 55%;
+  margin-left: 25%;
+}
+
+.data p{
+  margin-bottom: 80px;
+  padding-bottom: 20px;
+  box-shadow: 0 3px 0 0 black;
+}
+
+.data h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+
+}
+
+footer img{
+  width: 120px;
+}
+
+
+.foot{
+  width: 93%;
+  padding-bottom: 15px;
+  
+}
+
+.social{
+  margin-left: 100px;
+  border-radius: 50%;
+}
+
+.detail{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.social img{
+  border-radius: 60%;
+  width: 35px;
+}

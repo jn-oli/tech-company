@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Blog</title> <!--Setting page title as Blog -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/blog.css" />
+  <link rel="shortcut icon" href="../image/logo/black.png" type="image/x-icon"> <!-- Changing favicon -->
+  
+
+
+<body style="margin: 0px;"> <!-- Using in-line CSS-->
+  <header class="back"> <!-- Creating header-->
+    <div class="navbar">
+      <div>
+        <img src="../image/logo/grey.png" alt="image"> <!-- Inserting image -->
+      </div>
+      <nav> <!-- Creating navigation bar-->
+        <ul>
+          <!-- Creating list for navigation bar and linking it with its dedicated website -->
+          <li><a href="../index.html">Home</a></li><!--Navigation menu item-->
+          <li><a href="Product.html">Products</a></li>
+          <li><a href="aboutUs.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="research.html">Research</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <input type="text" placeholder="search" id="searchbar"> <!-- Creating a input system-->
+        <button>search</button> <!-- Creating a button named "search"-->
+      </div>
+    </div>
+  </header>
+  <!-- End of header -->
+
+  <!-- Start of Introduction part -->
+  <div class="container">
+    <div class="info">
+      <h1>Technology</h1> <!--Setting header-->
+      <div class="slider">
+        <div id="img-slide">
+          <img src="../image/slider/a.jpg"> <!--Inputing image-->
+        </div>
+      </div>
+
+      <!-- Using inline JavaScript -->
+      <script>
+        var imagesPath = ['../image/slider/b.jpg', '../image/slider/c.jpg', '../image/slider/a.jpg']; //array
+        var imgDiv = document.getElementById("img-slide");
+        var index = 0; //Setting index to zero
+        setInterval(slider, 2000); //setting interval time to 2 Seconds
+        function slider() //Creating funtcion name slider
+        {
+          if (index < imagesPath.length) //Using control loop statement 
+          {
+            index = index + 1;
+          }
+          else {
+            index = 1;
+          }
+
+          imgDiv.innerHTML = "<img src=" + imagesPath[index-1] + ">"; //Calling image accoring to imagesPath's index
+        }
+      </script>
+      <!--End of JavaScript-->
+
+      <p> <!--Start of a paragraph-->
+        Modern life is completely dependent upon technology. People are
+        totally reliant on technology and is incomplete without it.
+        Technology plays a significant role in every part of human life.
+        Technology can be defined as the application of scientific knowledge
+        to the practical aims of human life. By making the means of
+        communication and transportation faster it has made the lives of
+        people simple and comfortable. Without technology, existence of life
+        would be almost impossible. Transportation, communication,
+        education, health and business are some areas where technology is
+        helpful. It also has significant negative effects. Over use of
+        screens and the sedentary behavior can lead to physical health
+        issues such as eye strains. Automation and artificial intelligence
+        (AI) can lead to the job displacement of many people as certain
+        tasks and roles has become automated.
+      </p> <!--End of a paragraph-->
+
+      <!-- Start of section for positive aspects -->
+
+      <h2>- Positive Aspects of Technology -</h2> <!--Setting header to h2-->
+
+      <div class="tdesign"> <!--Creating a div for two divisions inside-->
+        <div class="container2">
+          <img src="../image/sector/communication.png"> <!--Inserting image-->
+          <h1 style="font-size: 30px;">Communication</h1>
+          <p>
+            Technology has contributed the most in the field
+            of communication. Through the platforms like social media,
+            messaging apps and emails, technology enables quick and continent
+            communication between people all over the world. It has improved
+            communication through the internet and mobile devices. In 1875,
+            Graham Bell made the first technological advancement that had an
+            impact on communication: the telephone. One technological
+            invention that changed communication was mobile phone.
+          </p>
+        </div>
+        <div class="container2">
+          <img src="../image/sector/health.jpg"> <!--Inserting image-->
+          <h1>Health</h1>
+          <p>
+            The medical industry has benefited a lot from
+            technology. Because of technology the understanding of the
+            diseased has been improved significantly. Furthermore, the disease
+            prevention and health promotion also has been significantly
+            increased. The development of vaccines against several diseases is
+            also possible due to the advancement of technology. Technology
+            helped the development of several vaccines because without it, the
+            certain diseases would still be killing large numbers of
+            people.
+          </p>
+        </div>
+      </div>
+      <div class="tdesign"> <!--Creating a div for two divisions inside-->
+        <div class="container2">
+          <img src="../image/sector/education.png" style="width: 50%;">
+          <h1>Education</h1>
+          <p>
+            Technology also has a big impact on educational
+            field. By the use of various techniques, the teaching and learning
+            process has been significantly improved. The students can learn
+            through online institution and classroom with the help of digital
+            books. It has improved the process of teaching by introducing new
+            methods that facilitate connected teaching. Through this technique
+            the teachers can deliver the course material and learning
+            resources effectively. Students and teachers can get connected not                
+            only physically but digitally through this platform
+          </p>
+        </div>
+        <div class="container2">
+          <img src="../image/sector/business.jpg">
+          <h1>Business</h1>
+          <p>
+            Technology is being used in the business industry to
+            increase productivity and improve efficiency. Technology
+            facilitates seamless communication and collaboration within the
+            team, regardless of geographical boundaries. The business are
+            reached worldwide through internet and e-commerce platform. It
+            also help business reduce costs through automation. By offering
+            scalable infrastructure, adaptable software solutions, and digital
+            marketing platforms to reach a wider audience, technology helps
+            firms develop and grow more quickly.
+          </p>
+        </div>
+      </div>
+
+      <!-- Start of new div for negative aspects -->
+      <div>
+        <h2 class="adv">- Negative Aspects of Technology -</h2>
+        <img src="../image/Technology/844221.jpg">
+        <p>
+          Even though technology has many positive aspects, it also have a
+          negative effect on the society because it affects the
+          communication and alters how people perceive social interaction.
+          Nowdays, there are a ton of dating websites on the internet that
+          are populated by individuals looking for friends and lover. It has
+          also affected the economic status of the families. Nowdays, analog
+          cameras has been replaced with digital camera due to their
+          simplicity and effectiveness. There are several medical
+          technologies such as stem cell research and gene therapy which are
+          against the moral and ethics of some religious people. Automation
+          and artificial intelligence(AI) can lead to the job displacement
+          of many people as certain tasks and roles has become automated.
+          Over use of screens and the sedentary behavior can lead to
+          physical health issues such as eye strains and sleep disruptions.
+          The disposal of technology devices can contribute to electronic
+          waste generation which can harm the environment
+        </p>
+      </div>
+
+      <!-- Start of benifits section -->
+
+      <h2>- Benifits of technology for camera equipment -</h2>
+      <img src="../image/background/408270368540e9b3838608d2ce07035f.jpg">
+
+      <div class="tdesign"> <!--Creating a div for two divisions inside-->
+        <div class="container3">
+          <p>
+            Modern features have been added to cameras as a
+            result of ongoing development of technology. Examples: The low
+            light performance has been improved. High resolution sensors,
+            faster autofocus systems, image stabilization and enhanced low
+            light capabilities are a few examples.
+          </p>
+        </div>
+        <div class="container3">
+          <p>
+            Technology has transformed post-processing possibilities in
+            addition to improving the capturing method. Nowdays, there are
+            many editing software available in the market which provide
+            variety of tools to user for enhancing and manipulating their
+            photographs.Nowadays, many cameras can be integrated with the
+            smartphones allowing user to use their phone as a remote.
+          </p>
+        </div>
+      </div>
+
+      <div class="tdesign">
+        <div class="container3">
+          <p>
+            The development of internet marketplaces and e-commerce
+            platforms has made it simpler to sell the photographic gear. This
+            allows the seller to sell gears through online platform which
+            allows them to make their goods more accessible to customers.
+          </p>
+        </div>
+        <div class="container3">
+          <p>
+            The development of internet marketplaces and e-commerce
+            platforms has made it simpler to sell the photographic gear. This
+            allows the seller to sell gears through online platform which
+            allows them to make their goods more accessible to customers.
+          </p>
+        </div>
+      </div>
+
+      <div class="tdesign">
+        <div class="container3">
+          <p>
+            Wi-Fi and Bluetooth are the two wireless communication options
+            that are included into modern cameras that allows user to send or
+            share video or photographs to other through social media with
+            ease. It can also be stored in cloud and can be only accessible
+            from anywhere and at anytime.
+          </p>
+        </div>
+      </div>
+
+      <!-- Conclusion paragraph -->
+      <P>People are highly dependent upon technology and cannot live in ease. Technology plays a significant role in
+        every
+        aspects of human life. It has significant positive impacts in the areas of transport, communication,
+        interaction, education,
+        healthcare and business. By the creation of mobile phones and telephones communicating with people has become a
+        lot easier.
+        Technology has significantly improved heath illness due to the development of vaccinations. Businesses benefit
+        from technology
+        through reduction of costs and increased efficiency of business operations. Even though technology has many
+        positive impacts on
+        human lives but it also has certain drawbacks. It has harmed socialization and human connections, and it has
+        caused widespread of
+        unemployment. Major controversy arose due to medical procedures such as gene therapy and stem cell research.
+      </P>
+    </div>
+  </div>
+  </div>
+
+  <img src="../image/Technology/chipset.png" class="chip"> <!--Inserting image for the end-->
+</body>
+
+<footer style="background-color: black; color: white;"> <!-- Using in-line CSS -->
+  <table class="foot">
+    <tr>
+      <th>
+        <h4>Payment Partner</h4> <!-- Inserting a header-->
+        <div> <!-- Inserting images for payment partner and linking them with thier respective websites -->
+          <a href="https://esewa.com.np/#/home"><img src="../image/payment/download.png"></a>
+          <a href="https://khalti.com/"><img src="../image/payment/khalti_logo_zoho_white.png"></a>
+        </div>
+      </th>
+      <th class="detail">Location: Putalisadak/ Kirtipur<br>Contact: 01-4335126<br>clickspic@gmail.com<br>&copy;Clicks
+        2023</th>
+      <th class="social">
+        <h4>Follow us</h4> <!-- Inserting a header-->
+        <div>
+          <!-- Inserting logo images of social medias and linking it with its respective website -->
+          <a href="https://www.facebook.com/"><img src="../image/socialmedia/fb.png"></a>
+          <a href="https://www.instagram.com/"><img src="../image/socialmedia/insta.png"></a>
+          <a href="https://www.linkedin.com/"><img src="../image/socialmedia/linkedin.png"></a>
+          <a href="https://www.twitter.com/"><img src="../image/socialmedia/twitter.png"></a>
+        </div>
+      </th>
+    </tr>
+  </table>
+</footer>
+
+</html>

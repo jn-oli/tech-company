@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/Productdetail.css"> <!-- External CSS files -->
+  <title>Product Details</title>
+  <link rel="shortcut icon" href="../image/logo/black.png" type="image/x-icon"> <!-- Changing favicon -->
+
+  <!-- internal css -->
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+</head>
+
+<body style="background-color:black">
+  <div class="navbar">
+    <div>
+      <img src="../image/logo/grey.png" alt="image">
+    </div>
+    <nav>
+      <ul>
+        <!-- Creating list for navigation bar and linking it with its dedicated website -->
+        <li><a href="../index.html">Home</a></li><!--Navigation menu item-->
+        <li><a href="Product.html">Products</a></li>
+        <li><a href="aboutUs.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="research.html">Research</a></li>
+      </ul>
+    </nav>
+    <div>
+      <input type="text" placeholder="search" id="searchbar"><!-- Search input field -->
+      <button id="srcbutton">search</button>
+    </div>
+  </div>
+  <section style="margin-top: 10px;margin-bottom: 100px;">
+
+
+    <div class="container flex">
+      <div class="left">
+        <div class="main_image">
+          <img src="../image/ProductDetail/Fujifim.png" height="320" class="slide" style="top: 130px
+          ;">
+        </div>
+        <div class="option flex">
+          <img src="../image/ProductDetail/Fuji1.jpg"
+            onclick="img('../image/ProductDetail/Fuji1.jpg')"><!-- Display the first image and call the 'img' function with the corresponding image path -->
+          <img src="../image/ProductDetail/Fuji2.jpg"
+            onclick="img('../image/ProductDetail/Fuji2.jpg')"><!-- Display the second image and call the 'img' function with the corresponding image path -->
+          <img src="../image/ProductDetail/Fuji3.jpeg"
+            onclick="img('../image/ProductDetail/Fuji3.jpeg')"><!-- Display the third image and call the 'img' function with the corresponding image path -->
+          <img src="../image/ProductDetail/Fuji4.jpg"
+            onclick="img('../image/ProductDetail/Fuji4.jpg')"><!-- Display the fourth image and call the 'img' function with the corresponding image path -->
+          <img src="../image/ProductDetail/Fuji5.jpg"
+            onclick="img('../image/ProductDetail/Fuji5.jpg')"><!-- Display the fifth image and call the 'img' function with the corresponding image path -->
+          <img src="../image/ProductDetail/Fuji6.jpeg"
+            onclick="img('../image/ProductDetail/Fuji6.jpeg')"><!-- Display the sixth image and call the 'img' function with the corresponding image path -->
+        </div>
+      </div>
+      <div class="right">
+        <h3>Fujifilm XS-10</h3>
+        <div style="display: flex;flex-direction: row;align-items: center;justify-content: flex-start;">
+          <h4
+            style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;color: rgb(155, 155, 155);text-decoration: line-through;font-weight: normal;margin-right: 10PX;">
+            <small>Rs.</small>112599.99
+          </h4><!-- Display the original price -->
+          <h4 style="color: black;"> <small>Rs.</small>100350.00 </h4>
+        </div><!-- Display the discounted price -->
+        <p>A compact mirrorless camera body that is packed with cutting-edge technologies.
+          The portability and power of this camera will connect with your subjects like never before.
+          FUJIFILM XS-10 helps unleash your creativity to its fullest extent.
+        </p>
+        <h5>Color - Pure Black</h5> <!-- Heading for color selection -->
+        <div class="color flex1"> <!-- Container for color options -->
+          <span></span><!-- Empty span element representing a color option -->
+          <span></span><!-- Empty span element representing a color option -->
+          <span></span><!-- Empty span element representing a color option -->
+          <span></span><!-- Empty span element representing a color option -->
+          <span></span><!-- Empty span element representing a color option -->
+          <span></span><!-- Empty span element representing a color option -->
+          <span></span><!-- Empty span element representing a color option -->
+        </div>
+        <h5>Number</h5><!-- Heading for quantity selection -->
+        <div class="add flex1"> <!-- Container for quantity options -->
+          <span>-</span> <!-- Symbol for decreasing the quantity -->
+          <label>1</label> <!-- Label displaying the current quantity -->
+          <span>+</span> <!-- Symbol for increasing the quantity -->
+        </div>
+
+        <button class="buy-button" onclick="popup()">Buy Now</button>
+
+        <script src="../javascript/popup.js"></script> <!--External javascrpit link-->
+      </div>
+    </div>
+
+  </section>
+  <footer>
+    <!-- Footer section with black background and white text color -->
+    <table class="foot"> <!-- Table layout for footer content -->
+      <tr>
+        <th>
+          <h4>Payment Partner</h4> <!-- Heading for payment partner section -->
+          <div>
+            <a href="https://esewa.com.np/#/home"><img
+                src="../image/payment/download.png"></a><!-- Link to eSewa payment partner website with associated image -->
+            <a href="https://khalti.com/"><img src="../image/payment/khalti_logo_zoho_white.png"></a>
+          </div>
+        </th>
+        <th class="detail">Location: Putalisadak/ Kirtipur<br>Contact: 01-4335126<br>clickspic@gmail.com<br>&copy;Clicks
+          2023</th>
+        <th class="social">
+          <h4>Follow us</h4><!-- Heading for social media follow section -->
+          <div>
+            <a href="https://www.facebook.com/"><img src="../image/socialmedia/fb.png"></a>
+            <a href="https://www.instagram.com/"><img src="../image/socialmedia/insta.png"></a>
+            <a href="https://www.linkedin.com/"><img src="../image/socialmedia/linkedin.png"></a>
+            <a href="https://www.twitter.com/"><img src="../image/socialmedia/twitter.png"></a>
+          </div>
+        </th>
+      </tr>
+    </table>
+  </footer>
+  <script src="../javascript/toggle.js"></script> <!--External javascript-->
+</body>
+
+</html>

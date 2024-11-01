@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+body {
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    45deg,
+    rgb(18, 18, 18) 0%,
+    rgba(11, 3, 45, 1) 100%
+  );  
+}
+
+/* Designing navigation bar */
+.back{
+  background-color: black;
+  box-shadow: 0px 10px 15px 11px rgb(202, 202, 202);
+ }
+ 
+ 
+ .navbar{
+   display: flex;
+   align-items: center;
+   padding: 20px;
+ }
+ 
+ /* Styling image inside class navbar */
+ .navbar img{
+   width: 80px;
+   margin-left: 40px;
+ }
+ 
+ nav{
+   flex: 1;
+   text-align: right;
+   margin-right: 90px;
+ }
+ 
+ /* Styling ul tag inside nav tag */
+ nav ul{
+   display: inline-block;
+   list-style-type: none;
+ }
+ 
+ nav ul li{
+   display: inline-block;
+   text-transform: uppercase;
+   margin-right: 120px;
+   font-family: monospace;
+   font-size: larger;
+   font-weight: 100;
+ }
+ 
+ /* using id */
+ #searchbar{
+   background-color: rgb(138, 138, 138);
+   border-radius:20px;
+   width: 100px;
+ }
+ 
+ 
+ a{
+   text-decoration: none;
+   color: rgb(145, 145, 145);
+   text-transform: uppercase;
+   
+ }
+ 
+ /* Design for hover effect of tag <a> */
+ nav ul li a:hover{
+   color: white;
+   box-shadow: 0px 6px 0px -5px white;
+ }
+ 
+ 
+ /* Styling button */
+ button{
+   background-color: rgb(95, 95, 95);
+   color: rgb(8, 8, 8);
+   border-radius: 10px;
+ }
+ 
+ /* Design for hover effect */
+ button:hover{
+   background-color: rgb(8, 8, 8);
+   color:  rgb(134, 132, 132)  ;
+   transition: 1ms;
+   border-radius: 10px;
+   cursor:pointer;
+   
+ } 
+ /* End of designing navigation bar */
+ 
+.main {
+  display: block;
+  justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.container {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 33, 60, 0.666);
+  border-radius: 12px;
+  border: 1px solid  rgba(0, 213, 255, 0.712);
+  padding: 38px;
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-image1 {
+  background-image: url(../image/Product/Fujifilm.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+.banner-image2 {
+  background-image: url(../image/Product/SonyA7IV.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+.banner-image3 {
+  background-image: url(../image/Product/CanonEOSR5C.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+.banner-image4 {
+  background-image: url(../image/Product/Polaroid.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+
+}
+.banner-image5 {
+  background-image: url(../image/Product/NikonCoolpixB500.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+.banner-image6 {
+  background-image: url(../image/Product/GoProHero9.webp);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+.banner-image7 {
+  background-image: url(../image/Product/NikonZ7.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+.banner-image8 {
+  background-image: url(../image/Product/SonyEPZlens.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+.banner-image9 {
+  background-image: url(../image/Product/Sonya6600.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+.banner-image10 {
+  background-image: url(../image/Product/CanonEOS90D.webp);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+.banner-image11 {
+  background-image: url(../image/Product/CanonF4L.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+.banner-image12 {
+  background-image: url(../image/Product/KodakKB10.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+h1 {
+  font-family: "Righteous", Monospace;
+  color: rgba(255, 255, 255, 0.98);
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+
+p {
+  color: #fff;
+  font-family: "font-family", Monospace;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 150%;
+  letter-spacing: 2Spx;
+  text-transform: uppercase;
+}
+
+.button-wrapper {
+  margin-top: 18px;
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.outline {
+  background: transparent;
+  color: rgba(0, 212, 255, 0.9);
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  transition: all 0.3s ease;
+}
+
+.outline:hover {
+  transform: scale(1.125);
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+}
+
+.fill {
+  background: rgba(0, 212, 255, 0.9);
+  color: rgba(255, 255, 255, 0.95);
+  filter: drop-shadow(0);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.fill:hover {
+  transform: scale(1.125);
+  border-color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
+  transition: all 0.3s ease;
+}
+
+
+
+.start {
+  color: rgb(233, 233, 233);
+  display: flex;
+}
+
+.col-1 {
+  padding-top: 250px;
+  padding-left: 150px;
+  font-size: 40px;
+  margin-bottom: 400px;
+  font-family: fantasy;
+}
+
+.col-2 {
+  padding-top: 270px;
+  padding-left: 390px;
+  font-size: 40px;
+  margin-bottom: 400px;
+  font-family: fantasy;
+}
+
+.producthead {
+  font-family: monospace;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.product-align {
+  margin: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-align p {
+  width: 180px;
+}
+
+.p img {
+  object-fit: scale-down;
+  width: 180px;
+}
+
+.desc {
+  margin: 3px;
+  font-size: large;
+  font-family: monospace;
+}
+
+.price {
+  color: orange;
+  margin: 1px;
+}
+
+.dis {
+  margin: 1px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.p:hover {
+  box-shadow: 15px 10px 40px rgb(205, 205, 205);
+}
+
+
+/* .sponser-align {
+  margin: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+} */
+
+.sponser-align img {
+  object-fit: scale-down;
+  width: 200px;
+}
+
+footer img {
+  width: 120px;
+}
+
+.foot {
+  width: 93%;
+  padding-bottom: 15px;
+}
+
+.social {
+  margin-left: 100px;
+  border-radius: 50%;
+}
+
+.detail {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.social img {
+  border-radius: 60%;
+  width: 35px;
+}

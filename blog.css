@@ -1,0 +1,219 @@
+
+/* Designing navigation bar */
+.back{
+ background-color: black;
+ box-shadow: 0px 10px 15px 11px rgb(202, 202, 202);
+}
+
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Styling image inside class navbar */
+.navbar img{
+  width: 80px;
+  margin-left: 40px;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+  margin-right: 90px;
+}
+
+/* Styling ul tag inside nav tag */
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 120px;
+  font-family: monospace;
+  font-size: larger;
+  font-weight: 100;
+}
+
+/* using id */
+#searchbar{
+  background-color: rgb(138, 138, 138);
+  border-radius:20px;
+  width: 100px;
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(145, 145, 145);
+  text-transform: uppercase;
+  
+}
+
+/* Design for hover effect of tag <a> */
+nav ul li a:hover{
+  color: white;
+  box-shadow: 0px 6px 0px -5px white;
+}
+
+
+/* Styling button */
+button{
+  background-color: rgb(95, 95, 95);
+  color: rgb(8, 8, 8);
+  border-radius: 10px;
+}
+
+/* Design for hover effect */
+button:hover{
+  background-color: rgb(8, 8, 8);
+  color:  rgb(134, 132, 132)  ;
+  transition: 1ms;
+  border-radius: 10px;
+  cursor:pointer;
+  
+} 
+/* End of designing navigation bar */
+
+/* Setting margin for the container to store all information in an alignment */
+.container{
+  margin: 0 12% 3% 12%;
+}
+
+/* Styling h1 tag inside info class */
+.info h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+/* Styling header h2 inside class info */
+.info h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/* Styling image inside class info */
+.info img{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.slider{
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 80%;
+  overflow: hidden;
+}  
+
+
+.info p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: rgb(79, 79, 79);
+}
+
+.tdesign{
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex: content;
+  justify-content: space-evenly;
+}
+
+.tdesign h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #454343;
+}
+
+.tdesign p{
+  margin: 0 10% 10% 10%;
+  font-size: 15px;
+  color: rgb(109, 109, 109);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2{
+  width: 450px;
+  height:550px;
+  margin-right: 40px;
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  background-color: rgb(239, 239, 239);
+  box-shadow: inset 6px 6px 6px rgb(201, 199, 199), inset -6px -6px 6px rgb(241, 241, 241);
+}
+
+.container3{
+  width: 450px;
+  height:130px;
+  margin-right: 40px;
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  background-color: rgb(239, 239, 239);
+  box-shadow: inset 6px 6px 6px rgb(201, 199, 199), inset -6px -6px 6px rgb(241, 241, 241);
+}
+
+.container2 img{
+  width: 70%;
+  background-size: cover;
+  display: block;
+  margin: 17px auto;
+  border-radius: 20px;
+
+}
+
+.chip{
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  margin-bottom: 35px;
+}
+
+/* Starting of footer desinging */
+footer img{
+  width: 120px;
+}
+
+
+.foot{
+  width: 90%;
+  padding-bottom: 15px;
+  
+}
+
+.social{
+  margin-left: 100px;
+  border-radius: 50%;
+}
+
+.detail{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.social img{
+  border-radius: 60%;
+  width: 35px;
+}
+
+/* End of footer design */

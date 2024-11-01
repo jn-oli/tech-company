@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+}
+/* Designing navigation bar */
+.back{
+    background-color: black;
+    box-shadow: 0px 10px 15px 11px rgb(202, 202, 202);
+   }
+   
+   
+   .navbar{
+     display: flex;
+     align-items: center;
+     padding: 20px;
+   }
+   
+   /* Styling image inside class navbar */
+   .navbar img{
+     width: 80px;
+     margin-left: 40px;
+   }
+   
+   nav{
+     flex: 1;
+     text-align: right;
+     margin-right: 90px;
+   }
+   
+   /* Styling ul tag inside nav tag */
+   nav ul{
+     display: inline-block;
+     list-style-type: none;
+   }
+   
+   nav ul li{
+     display: inline-block;
+     text-transform: uppercase;
+     margin-right: 120px;
+     font-family: monospace;
+     font-size: larger;
+     font-weight: 100;
+   }
+   
+   /* using id */
+   #searchbar{
+     background-color: rgb(138, 138, 138);
+     border-radius:20px;
+     width: 100px;
+   }
+   
+   
+   a{
+     text-decoration: none;
+     color: rgb(145, 145, 145);
+     text-transform: uppercase;
+     
+   }
+   
+   /* Design for hover effect of tag <a> */
+   nav ul li a:hover{
+     color: white;
+     box-shadow: 0px 6px 0px -5px white;
+   }
+   
+   
+   /* Styling button */
+   button{
+     background-color: rgb(95, 95, 95);
+     color: rgb(8, 8, 8);
+     border-radius: 10px;
+   }
+   
+   /* Design for hover effect */
+   button:hover{
+     background-color: rgb(8, 8, 8);
+     color:  rgb(134, 132, 132)  ;
+     transition: 1ms;
+     border-radius: 10px;
+     cursor:pointer;
+     
+   } 
+   /* End of designing navigation bar */
+
+.about1 {
+    /* About section container styling */
+
+    width: 85%;
+    margin-top: 50px;
+    margin-left: 80px;
+
+}
+
+.align{
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+
+.aboutdesc h1 {
+    /* Styling for heading in the about section */
+
+    margin-left: 650px;
+    margin-bottom: 20px;
+
+}
+
+.imagepp {
+    /* Team member image container styling */
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border: 2px solid;
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 6px rgb(201, 199, 199), inset -6px -6px 6px rgb(241, 241, 241);
+    border-color: white;
+   
+}
+
+.imagepp img{
+    width: 40%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.imagepp h1,p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: grey;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.imagepp p{
+    margin-bottom: 30px;
+}
+
+
+.aboutdesc1 h1 {
+    /* Styling for heading in the about section */
+
+    margin-left: 900px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.text1 {
+    /* Text section styling */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.text1 img {
+    /* Styling for image in the text section */
+
+    border-radius: 50%;
+    margin-right: 50px;
+    width: 30%;
+}
+
+.main1 {
+    /* Main section container styling */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+
+.text11 {
+    /* Text styling in the main section */
+
+    line-height: 30px;
+}
+
+.Education h2 {
+    /* Styling for heading in the education section */
+
+    color: rgb(82, 82, 82);
+    margin-left: 600px;
+    margin-top: -50px;
+
+}
+
+.Education p {
+    /* Styling for paragraph in the education section */
+
+    margin-left: 600px;
+    width: 40%;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+footer img {
+    /* Footer image styling */
+
+    width: 120px;
+}
+
+
+.foot {
+    /* Footer table styling */
+
+    width: 93%;
+    padding-bottom: 15px;
+
+}
+
+.social {
+    /* Social media container styling */
+
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+.detail {
+    /* Styling for footer details */
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.social img {
+    /* Styling for social media icons */
+
+
+    border-radius: 60%;
+    width: 35px;
+}
